@@ -7,8 +7,6 @@ if "count" not in st.session_state:
 if "name" not in st.session_state:
   st.session_state["name"]= ""
 
-st.write(st.session_state)
-
 if st.button("click me"):
   st.session_state["count"] += 1
 
